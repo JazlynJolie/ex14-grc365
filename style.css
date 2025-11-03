@@ -42,6 +42,7 @@ header {
   letter-spacing: 1.5px;
 }
 
+/* GRID */
 .contestants {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -65,6 +66,28 @@ img {
   margin-bottom: 2rem;
 }
 
+/* GRID TEXT */
+h2 {
+  color: #841b1b;
+  margin-top: 0.5rem;
+}
+
+.stat {
+  color: #410707;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  color: #410707;
+  margin-top: 0.5rem;
+  border-top: 3px dashed #d99b6c;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  line-height: 1.5;
+}
+
+/* FOOTER */
 footer{
   text-align: center;
   min-width: 100%;
