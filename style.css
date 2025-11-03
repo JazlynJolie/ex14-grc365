@@ -21,6 +21,12 @@ body {
   text-align: center;
 }
 
+main {
+  width: 900px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
 /* HEADER */
 header {
   width: 100%;
@@ -34,4 +40,42 @@ header {
   font-size: 36px;
   color: #ffffff;
   letter-spacing: 1.5px;
+}
+
+.contestants {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+div {
+  background-color: #fbe8d3;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+footer{
+  text-align: center;
+  min-width: 100%;
+  padding: 20px 0 30px 0;
+  background-color: #d99b6c;
+  color: #FFFFFF;
+  margin-top: 4rem;
+  font-size: 18px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
